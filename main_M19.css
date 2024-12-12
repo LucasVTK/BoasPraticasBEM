@@ -1,8 +1,10 @@
+
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 
 .produtos {
     max-width: 640px;
@@ -13,22 +15,25 @@
     grid-column-gap: 1%;
 }
 
-.produto {} /* bloco */
 
-.produto-imagem { /* elemento */
+.produtos__produto {
+}
+
+.produtos__produto-imagem {
     width: 100%;
 }
 
-.produto-nome { /* elemento */
+.produtos__produto-nome {
     font-size: 1.2em;
     margin: 8px 0;
 }
 
-.produto-descricao { /* elemento */
+.produtos__produto-descricao {
     color: gray;
 }
 
-.em-destaque { /* modificador */
+
+.produtos__produto--em-destaque {
     border: 2px solid gold;
     padding: 8px;
     background-color: #ffff42;
